@@ -1,10 +1,10 @@
 /*! Node v0.0.0 - MIT license */
 'use strict';
 
-var Node = function ()
+var Node = function (x)
 {
   // your code goes here
-  var number;
+  var number = x;
 
   if(number % 2 === 0)
   {
